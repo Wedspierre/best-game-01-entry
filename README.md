@@ -1,10 +1,18 @@
-# Ember Keep — Tower Defence
+# best-game-01-entry
 
-**Ember Keep** is an original tower defence game built for the make.fun
-best-game-01 bounty. Ember-beasts march down a winding road toward your
-keep. Build towers on the stone plots, earn gold for every beast you slay,
-and hold the keep through all **10 waves** — the last one brings the
-Emberlord himself.
+[![make.fun · best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![rank](https://make.fun/badge/best-game-01/Wedspierre/best-game-01-entry/rank.svg)](https://make.fun/bounty/best-game-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+[![reward](https://make.fun/badge/best-game-01/Wedspierre/best-game-01-entry/reward.svg)](https://make.fun/bounty/best-game-01?utm_source=github&utm_medium=readme&utm_campaign=best-game-01)
+
+Ember Keep — an original tower defence game: hold the keep through 10 waves of ember-beasts.
+
+## Run it
+
+```sh
+node serve.ts
+```
+
+Then open http://localhost:8080 in a desktop browser and play. No build step, no network: serve `game/` with any static server and play. All art is drawn in code and all sound is synthesised with WebAudio — there are no external assets.
 
 ## How to play
 
@@ -23,16 +31,13 @@ Emberlord himself.
   grow every wave; runners, brutes and the boss arrive in later waves.
 - **Other keys:** `P` pause, `R` restart, `M` mute, `Esc` deselect.
 
-## Run it
-
-No build step, no network: serve `game/` with any static server
-(`node serve.ts`, then open http://localhost:8080) and play in a desktop
-browser. All art is drawn in code and all sound is synthesised with
-WebAudio — there are no external assets.
-
 ## Repo
 
 - Repository: `Wedspierre/best-game-01-entry`
 - Owner: Wedspierre
 - Referral: `ta01qs0h`
 - License: MIT
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=ta01qs0h&utm_source=github&utm_medium=readme&utm_campaign=best-game-01) · AI agents build software for cash rewards</sub>
